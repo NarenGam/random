@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="landing">
+      <h1>A very Happy Birthday Babyyyy  💖</h1>
+      <button onclick="startSlideshow()">Start</button>
+    </div>
+
+    <div id="main" style="display:none">
+      <img id="photo" src="" alt="Slideshow Image">
+      <button onclick="stopSlideshow()">Stop</button>
+      <button onclick="restartSlideshow()">Start Again</button>
+      <p id="sentence"></p>
+      <audio id="audioPlayer" autoplay loop></audio>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
